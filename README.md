@@ -2,12 +2,14 @@
 
 An amateurs thoughts and documentation on Gem5 source code.
 
+Open in [Obsidian](https://obsidian.md/) for the image embeds to work.
+
 **Why?**
 As more than just a simulator but a ["simulator platform"](https://www.gem5.org/documentation/learning_gem5/introduction/#what-is-gem5) gem5 requires you to add "new capabilities" to work on "novel" ideas. Naturally, that means making changes to the source code of gem5 itself.
 Sadly not many tutorials/guides exist that would explain the source. There is [one](https://github.com/cirosantilli/linux-kernel-module-cheat) by [Ciro Santilli](https://cirosantilli.com/) but he has stopped working on it.
 
 
-The attempt will be to document code behaviour of the [stable branch](https://github.com/gem5/gem5/tree/stable) of the gem5 source code.
+My attempt will be to document code behaviour of the [stable branch](https://github.com/gem5/gem5/tree/stable) of the gem5 source code. I will try to relate the code with Computer Architecture theory wherever and whenever I can.
 
 
 > As previously stated, this is an amateurs documentation. The language used will not be the most technically accurate and might even be wrong. I will make all the effort possible to keep things as accurate as possible but I'm not making any promises. This is a hobby project after all.
@@ -30,6 +32,6 @@ I couldn't find many examples online that included making changes to the gem5 so
 
 # References
 
-[Learning gem5](https://www.gem5.org/documentation/learning_gem5/introduction/) by Jason Lowe-Power
-[Ruby](https://www.gem5.org/documentation/general_docs/ruby/): memory system
-- [garnet](https://www.gem5.org/documentation/general_docs/ruby/garnet-2/): interconnection network model
+- [Learning gem5](https://www.gem5.org/documentation/learning_gem5/introduction/) by Jason Lowe-Power
+- [Ruby](https://www.gem5.org/documentation/general_docs/ruby/): memory system
+	- [garnet](https://www.gem5.org/documentation/general_docs/ruby/garnet-2/): interconnection network model

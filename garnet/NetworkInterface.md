@@ -3,4 +3,7 @@
 Two more classes are defined in `NetworkInterface`:
 - `OutputPort`
 - `InputPort`
-These are "pathways" that 
+
+**Analogy:** Imagine an ATM machine. It has a card reader and a cash dispenser. A card is inserted into the card reader and cash is released from the dispenser. Similarly, think of **InputPort** and **OutputPort** as the slots that make it possible.
+
+Keep in mind that 
