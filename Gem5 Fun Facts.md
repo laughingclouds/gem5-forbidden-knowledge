@@ -9,3 +9,5 @@ And as all sane readme files are encoded in UTF-8 and as all UTF-8 characters ar
 Emoji's for example.
 
 So get this. If you put an emoji in your local gem5's `README.md`, you will break the build process.
+
+> This was actually discovered by a friend who was building a gem5 project we were working on. I had made changes to the README and some other file. The project wouldn't build. It took us an embarrassingly long amount of time to figure out what went wrong. 
