@@ -1,3 +1,6 @@
+The true entry point (within the garnet module) for a packet. It has access to a buffer from which it receives packets to be injected into the network.
+
+NetworkInterface has code related to connecting the object instance to other components of the simulation. And code that implements the behaviour of the NI itself (most of which constitutes the `NetworkInterface::wakeup` function).
 # Header
 
 [NetworkInterface.hh](https://github.com/gem5/gem5/blob/stable/src/mem/ruby/network/garnet/NetworkInterface.hh) has the class definition for `NetworkInterface`.
@@ -6,7 +9,6 @@ Two more classes are defined in `NetworkInterface`:
 - `InputPort`
 
 **Analogy:** Imagine an ATM machine. It has a card reader and a cash dispenser. A card is inserted into the card reader and cash is released from the dispenser. Similarly, think of **InputPort** and **OutputPort** as the slots that make it possible.
-
 
 ## Params
 
@@ -17,3 +19,7 @@ Gem5 reads the contents of [`GarnetNetwork.py`](https://github.com/gem5/gem5/blo
 As its name suggests, it represents all "parameters" the NI may receive when a **NetworkInterface** instance is being initialised.
 
 Gem5 allows a huge number of parameters to be entered through the command line. And this is one of the files to make changes in, if you wish to add custom parameters.
+
+# Source
+
+## Simulation Behaviour
