@@ -48,4 +48,4 @@ It's very complicated and the easiest answer is *I don't know*.
 
 What I know however, is that this means the entry point for a packet (at least within garnet) is at the NetworkInterface. The NI has access to a **buffer** that holds the packets to be injected into the network.
 
-What I don't know, is how and where (in the source code) these packets are inserted into the buffer. Packet creation is still a mystery to be (read: I didn't read enough of the source code).
+What I don't know, is how and where (in the source code) these packets are inserted into the buffer. Packet creation is still a mystery to me (read: I didn't read enough of the source code).
