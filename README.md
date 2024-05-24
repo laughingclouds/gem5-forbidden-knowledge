@@ -1,6 +1,6 @@
 # gem5 forbidden knowledge
 
-An amateurs thoughts and documentation on Gem5 source code.
+An amateurs thoughts and documentation on Gem5 source code, accumulated as I study the source code and the behaviour of a gem5 simulation.
 
 Open in [Obsidian](https://obsidian.md/) for the image embeds to work.
 
